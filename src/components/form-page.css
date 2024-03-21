@@ -1,0 +1,46 @@
+.form-title {
+    color:rgba(84,223,112,1);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.form-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-color: #252629;
+}
+
+.form-input {
+    background-color: #e8e8e8;
+    border-color: #efefff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-input:hover {
+    background-color: #e8e8e8;
+    border-color: #efefff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ant-input::placeholder {
+    color:#7a7a7a;
+    opacity: 50%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.submit-button {
+    background-color: rgba(84,223,112,1);
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
+
+.submit-button:hover {
+    background-color: rgba(84,223,112,1);
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    
+}
