@@ -13,34 +13,58 @@
 }
 
 .form-input {
-    background-color: #e8e8e8;
-    border-color: #efefff;
+    background-color: #ffffff;
+    border-color: #d9d9d9;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .form-input:hover {
-    background-color: #e8e8e8;
-    border-color: #efefff;
+    background-color: #ffffff;
+    border-color: #d9d9d9;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .ant-input::placeholder {
-    color:#7a7a7a;
-    opacity: 50%;
+    color: rgba(0, 0, 0, 0.25);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.submit-button {
+.form-select {
+    background-color: #ffffff;
+    border-color: #d9d9d9;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-select:hover {
+    background-color: #ffffff;
+    border-color: #d9d9d9;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-select::placeholder {
+    display: flex;
+    color: rgba(0, 0, 0, 0.25);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ant-select .ant-select-selection-placeholder {
+    flex: none;
+}
+
+.ant-select .ant-select-selection-item {
+    flex: none;
+}
+
+.form-submit {
     background-color: rgba(84,223,112,1);
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: none;
 }
 
-.submit-button:hover {
+.form-submit:hover {
     background-color: rgba(84,223,112,1);
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: none;
-    
 }

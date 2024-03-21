@@ -1,4 +1,4 @@
-import "./App.css";
+import "./assets/styles/App.css";
 import FormPage from "./components/FormPage";
 
 function App() {
